@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Syntax</title>
+</head>
+<body>
+    <h1>Open console</h1>
+    <script>
+        console.log("this is console screen");
+
+        //merge 2 strings-concatenation 
+        var first_name="Krittika";
+        var last_name="Mishra";
+        var full_name = first_name.concat(last_name);
+        console.log("My name is "+full_name);
+
+        //find the length of a string
+        var name_length =full_name.length;
+        console.log(name_length);
+        
+        //replacing the content in a string
+        var para="I like Coding";
+        var replace_para=para.replace("like","love");
+        console.log(replace_para)
+
+        //convert string to upper case
+        var name_capital=full_name.toUpperCase();
+        console.log(name_capital)
+
+        //convert string to lower case
+        var name_small=para.toLowerCase();
+        console.log(name_small)
+
+        //math predefined functions of javascript
+        //finding the square root
+        var square=Math.sqrt(16);
+        console.log(square);
+
+        //find the maximum number
+        var maximum=Math.max(3,4,1,9,2);
+        console.log("Maximum number is ", maximum)
+
+        //find the minimum number
+        var minimum=Math.min(5,9,4,1,2);
+        console.log("Minimum number is ",minimum)
+
+        //find out the power of a number
+        var power=Math.pow(3,3);
+        console.log(power)
+    </script>
+</body>
+</html>
